@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto&display=swap');
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container > img {
+    width: 268px;
+    height: 33px;
+    margin-left: 200px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links > li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav-links > li > a:first-of-type{
+
+
+color: #00b39b;
+
+}
+
+.nav-links > li > a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+font-weight: 500;
+}
+
+/* experience styling */
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 60vh;
+}
+
+.experience-top{
+    padding: left;
+}
+
+.experience-top > img{
+    width: 40px;
+    height: 40px;    
+}
+
+.experience-top > h2{
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.experience-bottom > p{
+max-width:350px;
+font-size: 16px;
+color: #747474;
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    color: #000;
+}
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   
+}
